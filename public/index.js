@@ -7,7 +7,7 @@ function getPoints(count){
     let points=[];
 
     for (let i = 0; i < count; i++) {
-        const randomGen=()=>Math.random()*2-1;
+        const randomGen=()=>Math.random()-0.5;
         points.push(randomGen())
         points.push(randomGen())
         points.push(randomGen())
